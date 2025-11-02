@@ -1,7 +1,7 @@
 import cors from "cors";
 
 const corsMiddleware = cors({
-  origin: process.env.CORS_ORIGIN || "https://vercel-frontend-lime.vercel.app",
+  origin: process.env.CORS_ORIGIN || "http://localhost:3000/",
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: [
